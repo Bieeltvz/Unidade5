@@ -7,11 +7,11 @@ public class Uni5Exe05 {
         System.out.print("Quantos numeros da sequencia voce quer?");
         int n = teclado.nextInt();
         int numero = 8;
-        int soma = 0;
+        //int soma = 0;
         for(int i = 2; i <= n; i++){
             System.out.print(numero + " , " + (numero + 2) + " , ");
             numero = numero * 2;
-            soma = soma + numero + 2;
+          //  soma = soma + numero + 2;
         }
         teclado.close();
     }
