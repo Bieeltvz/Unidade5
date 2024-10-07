@@ -13,7 +13,7 @@ public class ExemploForMedia {
         float n2 = teclado.nextFloat();
         System.out.println("Informe N3: ");
         float n3 = teclado.nextFloat();
-        System.out.println("Media: " + ((n1 + n2 + n3) / 3));
+        System.out.println("Media: " + ((n1 + n2 + n3) / 3) + "do aluno " + nome);
         }
     }
 }
