@@ -8,7 +8,7 @@ public class LeNomeWhile {
         System.out.print("Entre com algum nome: ");
         String nome = teclado.next();
         while (!nome.equalsIgnoreCase("fim")) {
-            if (nome.equalsIgnoreCase("Xico")) {
+            if (nome.equalsIgnoreCase("xico")) {
                 System.out.println("Oi xico");
                 break;  //brak quebra while
             }
