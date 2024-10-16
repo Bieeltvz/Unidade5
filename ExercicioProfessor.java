@@ -20,7 +20,8 @@ public class ExercicioProfessor {
                 "O tempo para a massa ficar menor que 0,25g é de: " + horas + " Horas, " + minutos + " Minutos e "
                 +segundos + " Segundos.");
 
-        teclado.close();
+
+                teclado.close();
 
     }
 }
