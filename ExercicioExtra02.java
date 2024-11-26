@@ -17,7 +17,20 @@ a idade do homem mais baixo
 public class ExercicioExtra02 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Quantas pessoas são?");
+        System.out.println("Informe o sexo: ");
+        char sexo = Character.toUpperCase(teclado.next().charAt(0));
+        while(sexo != 'x'){
+        if(sexo != 'M' && sexo != 'F'){
+            System.out.println("Sexo invalido!! tente novamente.");
+        } else {
+     
+}
+System.out.println("Informe ");
+}
+ 
+}
+}
+  /*  System.out.println("Quantas pessoas são?");
         int qtdPessoas = teclado.nextInt();
         System.out.println("Qual o sexo?");
         char sexo = Character.toUpperCase(teclado.next().charAt(0));
@@ -51,5 +64,4 @@ public class ExercicioExtra02 {
        altura = teclado.nextDouble();
 
     }
-    }
-}
+    }*/
